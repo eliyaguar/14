@@ -23,8 +23,8 @@
     {
         static void Main(string[] args)
         {
-            Massage[] band = { new SMS(), new Email(), new Massage() };
-            foreach (var m in band)
+            Massage[] messages = { new SMS(), new Email(), new Massage() };
+            foreach (var m in messages)
             {
                 m.Send();
             }
